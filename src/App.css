@@ -1,0 +1,81 @@
+/* .App {
+  text-align: center;
+} */
+body {
+  background: url("./aftproj.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App-header {
+  background-color: rgb(58, 57, 57);
+  padding: 4px;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 4%;
+  background: none;
+  color: #fed136;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 150%;
+  border: none;
+  display: inline;
+}
+
+.list {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.header-item {
+  background: none;
+  color: white;
+  border: none;
+  margin: 0;
+  padding: 25px;
+
+  letter-spacing: 1px;
+}
+
+.header-item:hover {
+  color: #f0c322;
+}
+.welcomeBody {
+  text-align: center;
+  color: white;
+}
+
+.welcome {
+  padding-top: 12%;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.meet {
+  font-size: 450%;
+  font-weight: 200%;
+  padding-bottom: 50px;
+}
+
+.more {
+  background-color: #fed136;
+  border-color: #fed136;
+  color: white;
+  font-size: 18px;
+  padding: 20px 40px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+.more:hover {
+  background-color: #f0c322;
+}
